@@ -1,4 +1,4 @@
-autogen
+pyautogen
 streamlit
 streamlit_extras
 langchain_openai
