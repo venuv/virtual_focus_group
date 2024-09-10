@@ -17,7 +17,8 @@ The TERMINATE function does not trigger well with this code and Llama3, so if yo
 
 ## Operational Customization
 Run a virtual focus group with the personas by entering a topic of discussion and kicking it off.  
-* Create your own personas in `demographics_dict.py` or reuse the default.
+* Create your own persona meta datas in `demographics_dict.py` or reuse the default.
+* Create your own pre-loaded populations in docs/personas.json
 * To change the discussion length, edit max_round in `./pages/1 Run Virtual Focus Group.py` groupchat entry.  
 * The final chat will be saved to `./docs/chat_summary.txt`.
 * The final summary wil lbe saved to `docs/final_analysis.md`.
@@ -49,3 +50,12 @@ By default, the model will use ``llama3:latest`` (see `config.py` for a one-loca
 ## Dependencies
 
 In a clean environment run `pip install -r requirements.txt` to install all dependencies.
+
+## Logging and Debugging
+logging turned on in Home.py, writing into logs.db. sql commands of use:
+* sqlite3 logs.db
+* .tables
+* SELECT * FROM events ORDER BY timestamp DESC LIMIT 10;
+* SELECT * FROM chat_completions ORDER BY timestamp DESC LIMIT 5;
+* SELECT * FROM oai_clients;
+* SELECT * FROM function_calls ORDER BY timestamp DESC LIMIT 5;

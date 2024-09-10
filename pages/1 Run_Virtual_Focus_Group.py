@@ -13,6 +13,9 @@ import random
 
 import config as cfg
 
+logging_session_id = autogen.runtime_logging.start(config={"dbname": "logs.db"})
+print("Logging session ID: " + str(logging_session_id))
+
 with open('./docs/personas.json', 'r') as f:
     personas = json.load(f)
 
@@ -20,6 +23,7 @@ llm_config={
             "config_list": [
                 {
                     "model": cfg.llama_model,
+                    "api_type": "open_ai",
                     "api_key": "ollama", 
                     "base_url": "http://localhost:11434/v1",
                     "max_tokens": 8192, 

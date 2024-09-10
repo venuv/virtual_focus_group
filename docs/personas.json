@@ -1,20 +1,86 @@
 {
     "Persona 1": {
-              "Name": "Diana",
-        "Age": "25-34",
+        "Name": "Jane",
+        "Age": "45-54",
         "Gender": "female",
-        "Location": "West US",
+        "Location": "South East US",
         "Education": "Masters Degree",
         "Employment": "Employed",
         "Income": "200k+",
+        "Marital Status": "Married",
+        "Children": "1",
+        "Occupation": "Management",
+        "Hobbies": [
+            "Gardening"
+        ],
+        "Backstory": "health nut. no chemicals, plant nut. had her dog stung by a wasp"
+    },
+    "Persona 2": {
+        "Name": "Jill",
+        "Age": "35-44",
+        "Gender": "female",
+        "Location": "North East US",
+        "Education": "Doctoral Degree",
+        "Employment": "Employed",
+        "Income": "100-120k",
+        "Marital Status": "Married",
+        "Children": "0",
+        "Occupation": "Management",
+        "Hobbies": [
+            "Pets"
+        ],
+        "Backstory": "neatness freak. wants high performaing products. was once bit by a poisonous spider"
+	},
+    "Persona 3": {
+        "Name": "John",
+        "Age": "25-34",
+        "Gender": "male",
+        "Location": "South East US",
+        "Education": "Bachelors Degree",
+        "Employment": "Employed",
+        "Income": "<20k",
         "Marital Status": "Single",
         "Children": "0",
-        "Occupation": "Technical",
+        "Occupation": "Services",
         "Hobbies": [
-            "Games",
-            "Exercise",
-            "Traveling"
+            "Football"
         ],
-        "Backstory": "Highly opinionated and well educated.  Very well spoken. Wants to know all the technical details of products and doesn't shy away from demanding more information when she feels like the advertising is false or misleading."
+        "Backstory": "fast food and fast cars. good old boy - doesn't care about all this sustainability stuff. very suspicious of technology"
+    },
+    "Persona 4": {
+        "Name": "Mary",
+        "Age": "55-64",
+        "Gender": "female",
+        "Location": "Midwest US",
+        "Education": "Bachelors Degree",
+        "Employment": "Retired",
+        "Income": "150k-200k",
+        "Marital Status": "Married",
+        "Children": "2",
+        "Occupation": "Management",
+        "Hobbies": [
+            "Home Decor",
+            "Real Estate",
+            "Gardening"
+        ],
+        "Backstory": "Mary takes immense pride in her home and views it as an investment for future generations. She once discovered a rodent infestation in her pantry, which not only destroyed food but also caused structural damage, resulting in significant financial costs. This experience traumatized her, making her extremely vigilant about keeping her home spotless and pest-free. She now regularly invests in premium pest control services and products."
+    },
+    "Persona 5": {
+        "Name": "Ethan",
+        "Age": "45-54",
+        "Gender": "male",
+        "Location": "Northeast US",
+        "Education": "Bachelors in Environmental Science",
+        "Employment": "Environmental Policy Analyst",
+        "Income": "150k-200k",
+        "Marital Status": "Married",
+        "Children": "2",
+        "Occupation": "Analyst",
+        "Hobbies": [
+            "Composting",
+            "Environmental Advocacy",
+            "Bird Watching"
+        ],
+        "Backstory": "Ethan is deeply committed to sustainability and ecological preservation. A traumatic incident during his college years when a pest control company inadvertently wiped out a bee population near his home sparked his extreme focus on eco-friendly pest solutions. Ever since, Ethan has been on a mission to find pest control solutions that do not harm pollinators or disrupt natural ecosystems."
     }
 }
